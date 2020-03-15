@@ -15,12 +15,14 @@
                 <p class="quote-desc">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
                 <div class="form-container">
                     <div class="form-container__item">
-                        <form action="">
-                            <input type="text">
-                            <input type="text">
-                            <input type="text">
-                            <input type="text">
-                            <button>Submit</button>
+                        <form action="#"; method="POST" target="#">
+                            <input required type="text" placeholder="Name (Required)">
+                            <input required type="email" placeholder="Email (Required)">
+                            <input type="text" placeholder="Subject">
+                            <textarea name="info" id="detail" placeholder="Describe your project in detail..."></textarea>
+                            <div class="submit-button">
+                                <button class="submit">Submit</button>
+                            </div>
                         </form>
                     </div>
                     <div class="contacts">
@@ -28,8 +30,8 @@
                         <p class="contacts-desc">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
                         <div class="contact__item">
                             <p class="address">Elm St. 14/05 Lost City</p>
-                            <p class="phone">03528 331 86 35</p>
-                            <p class="mail">info@singolo.com</p>
+                            <a class="phone" href="tel:035283318635">03528 331 86 35</a>
+                            <a class="mail" href="mailto:info@singolo.com">info@singolo.com</a>
                         </div>
                     </div>
                 </div>
