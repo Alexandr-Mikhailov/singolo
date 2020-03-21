@@ -39,49 +39,80 @@ body {
     font-family: 'Lato-Regular', Verdana, sans-serif;
 }
 
-.quote-container {
+.portfolio {
     max-width: 1020px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #f06c64;
-    height: 648px;
-    border-bottom: 6px solid #ea676b;
+    background-color: #2d303a;
+    height: 864px;
+    border-bottom: 6px solid #323746;
 }
 
-.quote-wrapper {
+.portfolio-container {
     max-width: 940px;
     padding-left: 40px;
-    color: #f0d8d9;
     text-align: justify;
 }
 
-.quote {
-    padding-top: 72px;
+.portfolio-header {
+    padding-top: 63px;
+    color: #666d89;
     font-family: 'Lato-Black';
     font-size: 30px;
     font-weight: 400;
-    letter-spacing: -0.2px;
-    line-height: 17.86px;
+    letter-spacing: 0.2px;
 }
 
-.quote-desc {
-    margin-top: 25px;
-    font-family: 'Lato-Light';
+.portfolio-desc {
+    margin-top: 21px;
+    margin-bottom: 0px;
+    color: #767e9e;
+    font-family: 'Lato-Regular';
     font-size: 18px;
     font-weight: 300;
-    letter-spacing: -0.05px;
-    line-height: 30px;
+    letter-spacing: -0.34px;
 }
 
-.form-container {
+.portfolio-buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    color: #767e9e;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 22px;
+    margin-top: 12px;
 }
 
-.form-container__item {
-    max-width: 605px;
-    width: 100%;
-    margin-top: 9px;
+.portfolio-button {
+    height: 22px;
+    border: 1px solid #666d89;
+    border-radius: 5px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.button-active, .portfolio-button:hover {
+    border: 1px solid #c5c5c5;
+    color: #dedede;
+}
+
+.all {
+    width: 29px;
+}
+
+.web {
+    width: 78px;
+}
+
+.graphic {
+    width: 93px;
+}
+
+.art {
+    width: 57px;
 }
 
 input {
