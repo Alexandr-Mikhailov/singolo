@@ -39,9 +39,25 @@ body {
     font-family: 'Lato-Regular', Verdana, sans-serif;
 }
 
+.static-header {
+    height: 95px;
+    width: 1020px;
+}
+
 a {
     text-decoration: none;
   }
+
+.fixed-header {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: center;
+}
+
 .header {
     margin-top: 0;
     width: 1020px;
